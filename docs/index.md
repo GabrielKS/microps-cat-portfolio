@@ -5,9 +5,9 @@ permalink: /
 exclude: true
 ---
 
-<div style="text-align: left">
+<!-- <div style="text-align: left">
   <img src="./assets/img/Logo.png" alt="logo" width="100" />
-</div>
+</div> -->
 
 ![Reaction Wheel Cat in (re)Action](./assets/img/MicroPs-cat-action-shot.jpg)
 
