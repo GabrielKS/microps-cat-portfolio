@@ -8,6 +8,7 @@ The FPGA completes the following tasks:
   3. Run a PID controller to provide a motor control signal
   4. Send a PWM signal to the motor driver
 
+## Quadrature encoders
 Quadrature decoding was accomplished using a simple state transition table inspired by [this](https://cdn.sparkfun.com/datasheets/Robotics/How%20to%20use%20a%20quadrature%20encoder.pdf) resource. The code in relevant part looks like this:
 
 ```SystemVerilog
@@ -37,7 +38,8 @@ Quadrature decoding was accomplished using a simple state transition table inspi
     end
 ```
 
- SPI read is similarly concise:
+## SPI setpoint
+SPI read is similarly concise:
 ```SystemVerilog
 module get_roll(
 	input logic rst,
@@ -61,6 +63,7 @@ module get_roll(
 endmodule
 ```
 
+## PID controller
 PID control was complicated by the FPGA's aversion to complex arithmetic (floating-point, division, etc.). We were, however, able to perform integer multiplications. Using 16-bit integers for most of the signals and a custom floating-point datatype composed of a 16-bit mantissa and an exponent for the PID constants, we implemented a fully-featured PID controller in SystemVerilog, factoring out division into the constants. 
 
 Concretely, we transformed the familiar PID equation
@@ -82,3 +85,6 @@ For the derivative, these changes were made:
  * Further derivative smoothing algorithms were prototyped but deemed unnecessary
 
 In practice, many clamping modules were needed to prevent integer overflow. See the full source code for details.
+
+## PWM
+Pulse width modulation was accomplished using a configurable timer such that we could readily adjust the frequency as we experimented with various motor driver options. See the full source code for details.
