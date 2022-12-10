@@ -65,13 +65,13 @@ PID control was complicated by the FPGA's aversion to complex arithmetic (floati
 
 Concretely, we transformed the familiar PID equation
 
-\[u(t) = k_pe(t)+k_I \int^t_0 e(x) dx + k_d \frac{d}{dt} e(t)\]
+`u(t) = k_pe(t)+k_I \int^t_0 e(x) dx + k_d \frac{d}{dt} e(t)`
 
-where \(u(t))\ is the motor control signal at time \(t)\, \(e(t))\ is the error, and \(k_p)\, \(k_i)\, and \(k_d)\ are the PID constants, to
+where `u(t)` is the motor control signal at time `t`, `e(t)` is the error, and `k_p`, `k_i`, and `k_d` are the PID constants, to
 
-\[u(t) = k_p e_this+k_i(e_{accum}+=e_{this}) + k_d (e_{this}-e_{prev}\]
+`u(t) = k_p e_this+k_i(e_{accum}+=e_{this}) + k_d (e_{this}-e_{prev}`
 
-where \(e_{this})\ is the current error, \(e_{accum})\ is the accumulated error, \(+=)\ is as in C-like languages, and \(e_{prev})\ is the previous error value. For the integral, the following changes were made:
+where `e_{this}` is the current error, `e_{accum}` is the accumulated error, `+=` is as in C-like languages, and `e_{prev}` is the previous error value. For the integral, the following changes were made:
 
  * Cap the integral value to prevent abberations caused by the wheel being held away from the setpoint for a long time
  * Cap the integral increment value for a similar reason

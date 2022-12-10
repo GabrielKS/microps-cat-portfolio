@@ -1,6 +1,6 @@
 # MCU Design
 
-The controller we used is the STM32L432KC, which all students in E155 used. The MCU communicated with the inertial measurement unit (IMU) to obtain the roll angle. The IMU calculated this angle by fusing together readings from an accelerometer, a magnetometer, and a gyroscope, leading to a highly robust reading. The MCU then used universal asynchronous receiver-transmitter (UART) protocol to communicate with the IMU. 
+The controller we used is the STM32L432KC, which all students in E155 used. The MCU communicated with the inertial measurement unit (IMU) to obtain the roll angle. The IMU calculated this angle by fusing together readings from an accelerometer, a magnetometer, and a gyroscope, leading to a highly robust reading. The MCU then used universal asynchronous receiver-transmitter (UART) protocol to communicate with the IMU.
 
 We then converted the angle to the number of encoder ticks the wheel had to rotate, and sent that value to the FPGA. This conversion was done through the following steps:
 
