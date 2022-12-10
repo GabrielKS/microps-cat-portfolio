@@ -9,7 +9,7 @@ permalink: /doc/
 The above constitutes the full schematic for our project. It is based on the E155 FA22 Development Board, schematics for which can be found [here](https://pages.hmc.edu/brake/class/e155/fa22/assets/doc/E155%20FA22%20Development%20Board%20Schematic.pdf).
 
 # Source Code Overview
-Our source code consists of two codebases: one for the MCU and one for the FPGA. Both can be found in their full form, with everything needed to run the code, in [this](https://github.com/GabrielKS/microps-cat) repository of ours. An excerpt consisting of the most important code we wrote can be found [here](./src)
+Our source code consists of two codebases: one for the MCU and one for the FPGA. Both can be found in their full form, with everything needed to run the code, in [this](https://github.com/GabrielKS/microps-cat) repository of ours. An excerpt consisting of the most important code we wrote can be found [here](./src).
 
 # Bill of Materials
 
