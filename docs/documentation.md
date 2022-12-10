@@ -25,3 +25,6 @@ Our source code consists of two codebases: one for the MCU and one for the FPGA.
 *not included in total cost
 
 **Total cost: $117.78**
+
+# New Hardware
+Of the above materials, many were new hardware to us: driving a brushed motor with an H-bridge-like motor driver, reading from an IMU using USART, and interpreting encoder quadrature signals were all novel.
