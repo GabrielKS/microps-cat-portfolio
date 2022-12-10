@@ -1,3 +1,9 @@
+---
+layout: page
+title: Results
+permalink: /results/
+---
+
 # Results
 
 The robot cat can self-correct its orientation while suspended from wires. We have not yet reached our final goal, to drop the robot from two meters and have it land on its “feet.” This was primarily due to the mechanical design, as we were not confident that our electrical components would survive the fall.
