@@ -5,15 +5,13 @@ permalink: /doc/
 ---
 
 # Schematics
-<!-- Include images of the schematics for your system. They should follow best practices for schematic drawings with all parts and pins clearly labeled. You may draw your schematics either with a software tool or neatly by hand. -->
+![Full Schematic](./assets/img/microps-cat-final-schematic.png)
+The above constitutes the full schematic for our project. It is based on the E155 FA22 Development Board, schematics for which can be found [here](https://pages.hmc.edu/brake/class/e155/fa22/assets/doc/E155%20FA22%20Development%20Board%20Schematic.pdf).
 
 # Source Code Overview
-<!-- This section should include information to describe the organization of the code base and highlight how the code connects. -->
-
-The source code for the project is located in the Github repository [here](https://github.com/joshbrake/example-project-portfolio/tree/main/src).
+Our source code consists of two codebases: one for the MCU and one for the FPGA. Both can be found in their full form, with everything needed to run the code, in [this](https://github.com/GabrielKS/microps-cat) repository of ours. An excerpt consisting of the most important code we wrote can be found [here](./src)
 
 # Bill of Materials
-<!-- The bill of materials should include all the parts used in your project along with the prices and links.  -->
 
 | Item | Part Number | Quantity | Unit Price | Link |
 | ---- | ----------- | ----- | ---- | ---- |
