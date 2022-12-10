@@ -18,3 +18,7 @@ Cats have a reputation for always landing on their feet. Many other animals exhi
 We were initially motivated by a fascination with this ability of animals to reorient without an external object to push off of. In the course of our Microprocessor Systems class, we had built systems to interface with several sensors and actuators from thermometers to speakers, but never motors — so building an object that moved seemed the appropriate next step. We were particularly excited to interface with quadrature encoders and to challenge ourselves to write a full-featured PID controller that runs solely on an FPGA.
 
 # System Block Diagram
+
+<div style="text-align: center">
+  <img src="assets/img/block_diagram.png" alt="block diagram" width="500" />
+</div>
