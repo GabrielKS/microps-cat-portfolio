@@ -4,7 +4,7 @@ The reaction wheel is the physical wheel turned to correct the angle of the robo
 
 <div style="text-align: center">
   <img src="./assets/img/reactionwheel_cad.png" alt="wheel cad" width="300" height = "300" />
-   <img src="./assets/img/wheel_drawing.png" alt="wheel drawing" width="300" height = "300" />
+   <img src="./assets/img/wheel_drawing.PNG" alt="wheel drawing" width="300" height = "300" />
 </div>
 
 
@@ -13,6 +13,6 @@ The reaction wheel is the physical wheel turned to correct the angle of the robo
 The main body of the robot was designed in SolidWorks then 3-D printed. The main features of the body are a pocket for the motor to fit into, holes for the encoder to fasten to, and shelves for the breadboard and E155 development board (FPGA+MCU). This design was meant to keep the body highly adjustable, so tweaks to electronics could be made after the print. The CAD model and drawing is shown below. 
 
 <div style="text-align: center">
-  <img src="./assets/img/final_cad.png" alt="body cad" width="300" />
-   <img src="./assets/img/final_chassis_drawing.png" alt="body drawing" width="300" />
+  <img src="./assets/img/final_cad.PNG" alt="body cad" width="300" />
+   <img src="./assets/img/final_chassis_drawing.PNG" alt="body drawing" width="300" />
 </div>
