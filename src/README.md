@@ -1,11 +1,5 @@
----
-layout: page
-title: Documentation
-permalink: /src/
----
-
 # Code details
-This directory, which you can browse on GitHub [here](https://github.com/GabrielKS/microps-cat-portfolio/tree/main/src), contains the most relevant source code we wrote for this project. You can also browse our full project directory trees, with all the files needed to run the project, at our development repository [here](https://github.com/GabrielKS/microps-cat).
+This directory contains the most relevant source code we wrote for this project. You can also browse our full project directory trees, with all the files needed to run the project, at our development repository [here](https://github.com/GabrielKS/microps-cat).
 
 The MCU code consists of:
 
