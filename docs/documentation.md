@@ -23,6 +23,7 @@ The source code for the project is located in the Github repository [here](https
 | Pololu DRV8874 Single Brushed DC Motor Driver Carrier |  4035 | 1 | $9.15 | [Driver](https://www.pololu.com/product/4035)|
 | HOZEON 6061 Aluminum Sheet | KEILEOHO | 1 | $37.99 |  [Aluminum](https://www.adafruit.com/product/3317) |
 | MCICICM Breadboard|  400tie | 1 | $6.69 |  [BreadBoard](https://www.adafruit.com/product/3317) |
+
 *not included in total cost
 
 **Total cost: $117.78**
