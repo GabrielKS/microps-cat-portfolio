@@ -81,4 +81,4 @@ For the derivative, these changes were made:
  * Only calculate the derivative every several thousand cycles (including using the "previous" value from several thousand cycles ago; for reference, the control loop runs at 6 mHz) to smooth out a choppy signal caused by low encoder resolution
  * Further derivative smoothing algorithms were prototyped but deemed unnecessary
 
-See the full source code for details.
+In practice, many clamping modules were needed to prevent integer overflow. See the full source code for details.
