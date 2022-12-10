@@ -22,3 +22,6 @@ We were initially motivated by a fascination with this ability of animals to reo
 <div style="text-align: center">
   <img src="assets/img/block_diagram.png" alt="block diagram" width="500" />
 </div>
+
+# Overview
+We programmed a microcontroller to read an inertial measurement unit (IMU) sensor using the UART protocol to provide the tilt angle of the robot. The microcontroller then sends this over the SPI protocol to an FPGA, which uses it as the setpoint in a PID control algorithm with input from a quadrature encoder and PWM output to a brushed motor controller. Ultimately, we are able to demonstrate a robot that balances when suspended from wires.
