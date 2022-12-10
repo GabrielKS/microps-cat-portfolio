@@ -5,7 +5,6 @@ theme: minima
 
 header-pages:
   - documentation.html
-  - resources.html
   - mcudesign.hmtl
   - fpgadesign.html
   - mechdesign.html
